@@ -62,12 +62,4 @@ this.add("p", {
 // ...
 ```
 
-## Output
-
-<p style="font-weight: bold;color: #f00; font-family: Georgia, serif;">
-My Component
-</p>
-
-* 1
-* 2
-* undefined
+It is recommended to use interpolated strings beginning and ending with \`backtics\` for readability purposes. This also allows for variables to be used within styles and other property values.
